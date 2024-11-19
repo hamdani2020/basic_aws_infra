@@ -1,13 +1,12 @@
-
-# Welcome to your CDK Python project!
+# Welcome to my CDK Python project!
 
 This is a blank project for CDK development with Python.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-This project is set up like a standard Python project.  The initialization
+This project is set up like a standard Python project. The initialization
 process also creates a virtualenv within this project, stored under the `.venv`
-directory.  To create the virtualenv it assumes that there is a `python3`
+directory. To create the virtualenv it assumes that there is a `python3`
 (or `python` for Windows) executable in your path with access to the `venv`
 package. If for any reason the automatic creation of the virtualenv fails,
 you can create the virtualenv manually.
@@ -49,10 +48,30 @@ command.
 
 ## Useful commands
 
- * `cdk ls`          list all stacks in the app
- * `cdk synth`       emits the synthesized CloudFormation template
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk docs`        open CDK documentation
+- `cdk ls` list all stacks in the app
+- `cdk synth` emits the synthesized CloudFormation template
+- `cdk deploy` deploy this stack to your default AWS account/region
+- `cdk diff` compare deployed stack with current state
+- `cdk docs` open CDK documentation
 
 Enjoy!
+
+## Deploy CDK Application
+
+Deploying stack to AWS Cloud CloudFormation
+![image](./resources/deploy.png)
+
+Done Deploying
+![image](./resources/deploy1.png)
+
+## Stacks in CloudFormation
+
+![image](./resources/cloudFormation.png)
+
+## EC2 Instance
+
+![image](./resources/ec2_instance.png)
+
+## S3 Bucket
+
+![s3](./resources/s3.png)
